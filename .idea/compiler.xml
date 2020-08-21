@@ -7,8 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="demo-common" />
-        <module name="demo-spring-boot" />
         <module name="spring-boot-helloworld" />
+        <module name="spring-boot-quartz" />
       </profile>
     </annotationProcessing>
   </component>
@@ -16,6 +16,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="demo-spring-boot" options="" />
       <module name="spring-boot-helloworld" options="-parameters" />
+      <module name="spring-boot-quartz" options="-parameters" />
     </option>
   </component>
 </project>
