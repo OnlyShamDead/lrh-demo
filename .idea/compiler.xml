@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="demo-common" />
         <module name="spring-boot-helloworld" />
+        <module name="spring-boot-mybatis" />
         <module name="spring-boot-quartz" />
       </profile>
     </annotationProcessing>
@@ -16,6 +17,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="demo-spring-boot" options="" />
       <module name="spring-boot-helloworld" options="-parameters" />
+      <module name="spring-boot-mybatis" options="-parameters" />
       <module name="spring-boot-quartz" options="-parameters" />
     </option>
   </component>
