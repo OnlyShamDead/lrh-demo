@@ -11,7 +11,7 @@
 
     <modules>
         <module>demo-common</module>
-        <module>demo-spring-boot</module>
+        <module>demo-spring</module>
     </modules>
 
     <repositories>
