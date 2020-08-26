@@ -12,6 +12,12 @@
 
     <dependencies>
 
+        <dependency>
+            <groupId>com.lrh.demo</groupId>
+            <artifactId>demo-common</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
         <!-- spring boot web -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -41,8 +47,8 @@
         <!-- druid连接池 -->
         <dependency>
             <groupId>com.alibaba</groupId>
-            <artifactId>druid</artifactId>
-            <version>1.1.10</version>
+            <artifactId>druid-spring-boot-starter</artifactId>
+            <version>1.1.14</version>
         </dependency>
 
         <!-- mysql驱动 -->
@@ -104,6 +110,27 @@
                 </configuration>
             </plugin>
         </plugins>
+
+        <resources>
+            <!--打包src/main/java下面的属性文件和xml文件-->
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.properties</include>
+                    <include>**/*.xml</include>
+                </includes>
+                <!-- 是否替换资源中的属性-->
+                <filtering>false</filtering>
+            </resource>
+            <!--打包src/main/resources目录下的属性文件和xml文件-->
+            <resource>
+                <directory>src/main/resources</directory>
+                <!--
+                    <includes> <include>**/*.properties</include>
+                    <include>**/*.xml</include> </includes> <filtering>true</filtering>
+                -->
+            </resource>
+        </resources>
     </build>
 
 </project>
