@@ -10,11 +10,4 @@ public class MybatisApplication {
         SpringApplication.run(MybatisApplication.class, args);
     }
 
-    /*
-    @Bean("druidDataSource")
-    @ConfigurationProperties(prefix="spring.datasource")
-    public DataSource druidDataSource() {
-        return new DruidDataSource();
-    }*/
-
 }
