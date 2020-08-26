@@ -12,12 +12,6 @@
 
     <dependencies>
 
-        <dependency>
-            <groupId>com.lrh.demo</groupId>
-            <artifactId>demo-common</artifactId>
-            <version>1.0.0</version>
-        </dependency>
-
         <!-- spring boot web -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
