@@ -9,6 +9,8 @@
         <option value="$PROJECT_DIR$/demo-spring/pom.xml" />
         <option value="$PROJECT_DIR$/demo-spring/spring-boot-dubbo/pom.xml" />
         <option value="$PROJECT_DIR$/demo-spring/spring-cloud/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-spring/spring-boot-dubbo/dubbo-common/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-spring/spring-boot-dubbo/dubbo-admin/pom.xml" />
       </list>
     </option>
   </component>

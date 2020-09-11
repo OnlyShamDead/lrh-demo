@@ -7,7 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="demo-common" />
-        <module name="spring-boot-dubbo" />
+        <module name="dubbo-admin" />
+        <module name="dubbo-common" />
+        <module name="dubbo-consumer" />
+        <module name="dubbo-provider" />
         <module name="spring-boot-helloworld" />
         <module name="spring-boot-mybatis" />
         <module name="spring-boot-quartz" />
@@ -23,6 +26,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dubbo-common" options="-parameters" />
+      <module name="dubbo-consumer" options="" />
       <module name="fd" options="" />
       <module name="spring-boot-helloworld" options="-parameters" />
       <module name="spring-boot-mybatis" options="-parameters" />
