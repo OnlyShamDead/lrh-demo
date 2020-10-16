@@ -10,16 +10,23 @@
 ### demo-spring spring相关demo
     
 **spring-boot-dubbo**
-> 1
-> 2
+> dubbo-admin: dubbo服务查看工具
+>
+> dubbo-common: 公共资源/接口/实体
+>
+> dubbo-consumer(port:8041): dubbo客户端(消费端)
+>
+> dubbo-provider(port:8040): dubbo服务端
     
 **spring-boot-helloworld**
-    >>>> 1
-    >>>> 2
+>1
+>
+>2
     
 **spring-boot-quartz**
-    >>>> 1
-    >>>> 2
+>
+>
+>
     
 **spring-boot-mybatis**
 
