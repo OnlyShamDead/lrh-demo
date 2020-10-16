@@ -10,6 +10,8 @@
 ### demo-spring spring相关demo
     
 #### spring-boot-dubbo
+> spring boot + dubbo + zookeeper
+>
 > dubbo-admin: dubbo服务查看工具
 >
 > dubbo-common: 公共资源/接口/实体
@@ -19,16 +21,30 @@
 > dubbo-provider(port:8040): dubbo服务端
     
 #### spring-boot-helloworld
->1
+> web例子
 >
->2
+> port: 8080
+
+#### spring-boot-mybatis
+> spring boot + mybatis + druid + tk-mybatis-generator
+>
+> port: 8070
     
 #### spring-boot-quartz
+> spring boot + quartz定时任务框架
 >
+> port: 8060
+   
+#### spring-cloud
+> spring boot + spring cloud, eureka作注册中心
 >
+> spring-cloud-common: 公共资源
 >
-    
-**spring-boot-mybatis**
+> spring-cloud-consumer(port:8051): spring cloud客户端
+>
+> spring-cloud-eureka-server(port:8761, 默认端口): 注册中心
+>
+> spring-cloud-provider(port:8050): spring cloud服务端
 
 ---------------------------------------------------
 
