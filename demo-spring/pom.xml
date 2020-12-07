@@ -17,6 +17,7 @@
         <module>spring-boot-mybatis</module>
         <module>spring-boot-dubbo</module>
         <module>spring-cloud</module>
+        <module>spring-boot-jpa</module>
     </modules>
 
     <dependencies>

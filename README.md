@@ -25,6 +25,11 @@
 >
 > port: 8080
 
+#### spring-boot-jpa
+> spring-boot-jpa
+>
+> port: 8030
+
 #### spring-boot-mybatis
 > spring boot + mybatis + druid + tk-mybatis-generator
 >
