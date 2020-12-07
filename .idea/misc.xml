@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/demo-spring/spring-cloud/pom.xml" />
         <option value="$PROJECT_DIR$/demo-spring/spring-boot-dubbo/dubbo-common/pom.xml" />
         <option value="$PROJECT_DIR$/demo-spring/spring-boot-dubbo/dubbo-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-spring/spring-boot-jpa/pom.xml" />
       </list>
     </option>
   </component>
