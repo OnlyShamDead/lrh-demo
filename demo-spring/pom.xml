@@ -18,6 +18,7 @@
         <module>spring-boot-dubbo</module>
         <module>spring-cloud</module>
         <module>spring-boot-jpa</module>
+        <module>spring-boot-ElasticSearch</module>
     </modules>
 
     <dependencies>
