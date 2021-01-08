@@ -12,6 +12,7 @@
     <modules>
         <module>demo-common</module>
         <module>demo-spring</module>
+        <module>demo-threading</module>
     </modules>
 
     <repositories>
