@@ -13,6 +13,7 @@
         <module>demo-common</module>
         <module>demo-spring</module>
         <module>demo-threading</module>
+        <module>project</module>
     </modules>
 
     <repositories>
