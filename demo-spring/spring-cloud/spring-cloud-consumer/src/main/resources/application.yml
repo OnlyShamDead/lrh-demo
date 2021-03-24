@@ -1,6 +1,6 @@
 spring:
   application:
-    name: consumer-hello
+    name: consumer-hello #服务名称
 server:
   port: 8051
 eureka:
